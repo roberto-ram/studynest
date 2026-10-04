@@ -1,0 +1,28 @@
+# Originals, uploads, and generated artifacts are local by default.
+# Explicitly choose a suitable private backup for these files.
+inbox/*
+!inbox/README.md
+**/sources/*
+!**/sources/README.md
+**/outputs/*
+!**/outputs/README.md
+**/workfiles/*
+!**/workfiles/README.md
+**/archive/*
+!**/archive/README.md
+
+# Do not store credentials, local tool settings, or cache files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.claude/settings.local.json

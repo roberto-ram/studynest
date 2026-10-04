@@ -2,13 +2,15 @@
 
 Keep your classes, study materials, and next steps in one place.
 
-StudyNest is a blank study workspace for ChatGPT Work, Codex, Claude, and other AI tools that can read files. It saves your course context in the folder so a new chat can pick up where you left off.
+StudyNest is a blank study workspace for ChatGPT Work, Codex, Claude, Gemini, and other AI tools that can read files. Saved files carry your course context into a new chat. Tools with folder access can save updates directly; upload-based tools need the manual save steps in their guides.
 
-**Version 1.0.1. Public template.** Make your own private copy before adding personal coursework.
+**Version 1.0.2. Public template.** Make your own private copy before adding personal coursework.
 
 ## Get started
 
 **ChatGPT users:** use the [Super simplified install guide for ChatGPT users only](docs/CHATGPT_SUPER_SIMPLIFIED_INSTALL.md).
+
+**Gemini users:** use the [Super simplified install guide for Gemini users only](docs/GEMINI_SUPER_SIMPLIFIED_INSTALL.md). It includes the manual save steps needed for new chats.
 
 For other setups:
 

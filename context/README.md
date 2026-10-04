@@ -1,4 +1,4 @@
-# Saved student context
+# StudyNest saved context
 
 These files are blank in the shared version. Update them in your personal copy.
 

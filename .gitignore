@@ -1,4 +1,4 @@
-# Originals, uploads, and generated artifacts are local by default.
+# StudyNest originals, uploads, and generated artifacts stay local by default.
 # Explicitly choose a suitable private backup for these files.
 inbox/*
 !inbox/README.md

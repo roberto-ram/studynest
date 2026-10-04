@@ -1,4 +1,4 @@
-# Your courses
+# Your StudyNest courses
 
 No courses exist yet. During onboarding, create one folder per actual course from [the course template](../templates/course/README.md).
 

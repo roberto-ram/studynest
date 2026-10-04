@@ -1,4 +1,4 @@
-# Blank templates
+# StudyNest blank templates
 
 The AI copies only the template needed for the student's real task. Replace labels in the new copy; keep these blank originals reusable.
 

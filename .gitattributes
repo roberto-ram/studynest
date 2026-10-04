@@ -1,3 +1,4 @@
+# StudyNest text files use consistent line endings.
 * text=auto
 *.md text eol=lf
 *.py text eol=lf

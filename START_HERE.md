@@ -1,4 +1,4 @@
-# AI session entry point
+# Start a StudyNest session
 
 Read once at session start:
 

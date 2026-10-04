@@ -18,7 +18,7 @@ The repository is [roberto-ram/studynest](https://github.com/roberto-ram/studyne
 
 Students can use **Use this template** to create a private copy. A public template does not make those personal copies public.
 
-Version 1.0.1 includes the StudyNest name, public setup instructions, and simpler writing. The original v1.0.0 tag remains in the history.
+Version 1.0.2 includes separate ChatGPT and Gemini setup guides, public template instructions, and consistent StudyNest descriptions. Earlier release tags remain in the history.
 
 ## Checks and limits
 

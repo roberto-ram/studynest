@@ -1,4 +1,4 @@
-# Optional subject guidance
+# StudyNest subject guidance
 
 The shared system works for any course without a subject module.
 

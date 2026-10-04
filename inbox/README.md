@@ -1,6 +1,6 @@
-# New materials arrive here
+# StudyNest inbox
 
-Place new materials here, or tell the AI which attached files or existing folder to use. The [source intake workflow](../workflows/SOURCE_INTAKE.md) classifies and indexes them.
+Place new class materials here, or tell the AI which attached files or existing folder to use. The [source intake workflow](../workflows/SOURCE_INTAKE.md) classifies and indexes them.
 
 Preserve originals. Use copies in course sources only when authorized and helpful; never move or rename synced files. Record files that remain outside the workspace as external dependencies.
 

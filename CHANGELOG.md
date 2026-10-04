@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2: October 4, 2026
+
+- Added the Super simplified install guide for Gemini users only, with setup, course intake, checkpoint, and resume prompts.
+- Linked the Gemini guide from the main setup pages and explained manual saving for repository imports.
+- Updated folder descriptions and GitHub release information to use StudyNest consistently.
+
 ## 1.0.1: October 4, 2026
 
 - Renamed the template StudyNest and made the repository public.

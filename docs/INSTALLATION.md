@@ -6,6 +6,8 @@ You do not need programming knowledge. StudyNest is a folder of instructions and
 
 **Another way for ChatGPT users:** follow the [Super simplified install guide for ChatGPT users only](CHATGPT_SUPER_SIMPLIFIED_INSTALL.md). Connect GitHub in ChatGPT, create a project, and give ChatGPT the repository link and install prompt.
 
+**Gemini users:** follow the [Super simplified install guide for Gemini users only](GEMINI_SUPER_SIMPLIFIED_INSTALL.md). Import your copy, then save updated context files yourself and load them into your next chat.
+
 ## 1. Choose how your AI will access files
 
 | Your tool | Setup path | Who saves updated context? |
@@ -13,6 +15,7 @@ You do not need programming knowledge. StudyNest is a folder of instructions and
 | ChatGPT Work / Codex with local folder tools | Local folder, below | AI, after verifying write access |
 | Claude with local folder access / Cowork | Claude local path, below | AI, after verifying write access |
 | Claude Code | Claude Code path, below | AI, after verifying write access |
+| Gemini website | [Gemini guide](GEMINI_SUPER_SIMPLIFIED_INSTALL.md) | Student saves updates and uploads current files |
 | A project/chat that only accepts uploads | Manual upload path, below | Student downloads/saves and replaces files |
 
 A GitHub connector, uploaded ZIP, or conversation memory alone does not prove the AI can change your local folder. The setup prompt checks capabilities.

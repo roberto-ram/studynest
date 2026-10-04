@@ -1,4 +1,4 @@
-"""Read-only structural checks for the study workspace. Python 3.9+, no packages."""
+"""Read-only structural checks for StudyNest. Python 3.9+, no packages."""
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import argparse

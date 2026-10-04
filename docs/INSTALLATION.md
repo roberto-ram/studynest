@@ -4,6 +4,8 @@ You do not need programming knowledge. This system is a folder of instructions a
 
 **Blank template:** [efficient-ai-study-system](https://github.com/roberto-ram/efficient-ai-study-system). This repository is private; the owner must grant access before you can open or copy it.
 
+**Another way for ChatGPT users:** follow the [Super simplified install guide for ChatGPT users only](CHATGPT_SUPER_SIMPLIFIED_INSTALL.md). Connect GitHub in ChatGPT, create a project, and give ChatGPT the repository link and install prompt.
+
 ## 1. Choose how your AI will access files
 
 | Your tool | Setup path | Who saves updated context? |

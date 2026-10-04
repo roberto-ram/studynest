@@ -8,6 +8,8 @@ Your courses, sources, study priorities, progress, and next steps live in this f
 
 ## Start here
 
+**ChatGPT users:** try the [Super simplified install guide for ChatGPT users only](docs/CHATGPT_SUPER_SIMPLIFIED_INSTALL.md) to connect GitHub and let ChatGPT handle the clone and project setup.
+
 1. Follow the [beginner installation guide](docs/INSTALLATION.md).
 2. Copy the [setup prompt](docs/PROMPTS.md#1-install-and-open-the-system).
 3. Add your class materials and use the [course setup prompt](docs/PROMPTS.md#2-add-your-first-course).

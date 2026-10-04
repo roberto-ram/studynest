@@ -4,6 +4,8 @@ Replace capitalized placeholders. Text in code blocks is ready to paste into you
 
 ## 1. Install and open the system
 
+ChatGPT users can use the dedicated [super simplified guide](CHATGPT_SUPER_SIMPLIFIED_INSTALL.md), including a ready-to-paste prompt with the template repository link.
+
 Use this only in an AI tool that has file/Git access. A chat-only tool cannot clone a repository just because you ask.
 
 ```text

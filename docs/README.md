@@ -1,5 +1,6 @@
 # User guides
 
+- [Super simplified install guide for ChatGPT users only](CHATGPT_SUPER_SIMPLIFIED_INSTALL.md): connect GitHub, create a project, and let ChatGPT clone and set up the folder.
 - [Installation](INSTALLATION.md): beginner setup for each AI.
 - [Prompts](PROMPTS.md): install, add classes, study, resume, and save.
 - [Design](DESIGN.md): how the folder carries context efficiently.

@@ -8,7 +8,7 @@ File context survives only when it is actually saved and available to the next s
 | --- | --- |
 | Confirmed preferences / constraints | context/STUDENT_PROFILE.md |
 | Course paths, confirmed deadlines, focus | context/DASHBOARD.md |
-| Durable cross-course decisions / corrections | context/MEMORY.md |
+| Decisions / corrections used across courses | context/MEMORY.md |
 | Objective performance and reasoning errors | Course Progress.md |
 | Exam-specific readiness | Exam Progress.md |
 | Current task, artifact paths, next step | Task Handoff.md |

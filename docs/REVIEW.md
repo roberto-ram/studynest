@@ -1,38 +1,29 @@
-# Version 1.0 release checklist
+# StudyNest release checklist
 
-The original school workspace was used as a structural reference, not copied into this template. The owner authorized private publication on October 4, 2026.
+The shared repository stays blank. Student work belongs in each student's own private copy.
 
-## Future review decisions
+## Before a release
 
-- Is the multi-course structure clear enough?
-- Are the installation steps understandable without technical experience?
-- Do the prompts support your intended setup demonstrations?
-- Is the healthcare behavior appropriately automatic?
-- Do progress and handoffs preserve the context you want?
-- Should any feature be simplified before sharing?
+- Check the profile and course registry are blank.
+- Check no course uploads, student records, grades, or patient data were added.
+- Keep original references separate from editable source indexes.
+- Make sure all AI tools use the same shared instructions.
+- Test local links with `python tools/validate_workspace.py --blank`.
+- Review changed files and confirm the repository before pushing.
+- Update the version, changelog, setup links, and release notes.
 
-## Validation
+## Published template
 
-Validation snapshot, October 4, 2026: 44 Markdown files and 65 local links passed structural checks. The seven startup files total 872 words before any course/task context is loaded. This is a word count, not an actual provider token or cost measurement.
+The repository is [roberto-ram/studynest](https://github.com/roberto-ram/studynest). It is public and configured as a GitHub template. The owner approved public access on October 4, 2026.
 
-The release contains blank instructions/templates and an optional checker. A scan found none of the originating workspace's course identifiers, instructor/patient names, personal paths, or credential patterns. The original workspace's Git status and diff matched the pre-build snapshot.
+Students can use **Use this template** to create a private copy. A public template does not make those personal copies public.
 
-The validator checks required files, local links, and startup file sizes. Manual review should also confirm:
+Version 1.0.1 includes the StudyNest name, public setup instructions, and simpler writing. The original v1.0.0 tag remains in the history.
 
-- Blank profile, empty course registry, and no real source files.
-- Source indexes are editable outside read-only originals.
-- Provider instructions point to one shared rule set.
-- Personal copies have their own private push destination.
-- Missing facts stay missing and progress depends on evidence.
-- Manual upload users receive save instructions.
-- A fresh-chat resume test is part of student setup.
+## Checks and limits
 
-Provider instructions were researched; actual end-to-end student testing across every product has not been performed.
+The template has been checked for structure, local links, and blank student data. Installation instructions were checked against official documentation.
 
-## Publication and future releases
+End-to-end setup in every AI product has not been tested. Each student's installation guide includes a fresh-chat resume check.
 
-The release destination is [roberto-ram/efficient-ai-study-system](https://github.com/roberto-ram/efficient-ai-study-system). Keep it private and configured as a GitHub template. It has its own Git history, separate from the original course repository.
-
-For each release, validate the blank template and its links, review staged files, commit and push only intended updates, and verify private visibility and the remote commit. Keep Installation and Prompts linked to the actual template URL.
-
-Version 1.0 uses tag `v1.0.0` and the release title **Version 1.0 Efficient Ai study system**. Change visibility only when the owner requests it. The owner controls removal of the separate local copy; do not delete it.
+The original nursing workspace is separate and has not been included in this repository. Do not change its files or publish its personal refactor while maintaining StudyNest.

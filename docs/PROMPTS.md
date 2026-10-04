@@ -18,14 +18,14 @@ Check file reading and writing, then begin onboarding. Ask at most five
 bundled questions, and reuse information I already provided.
 ```
 
-If you need the owner's blank template first, use `https://github.com/roberto-ram/efficient-ai-study-system` as the URL and add: "This is the shared template. Help me create my own private repository before pushing any personalized files." Access must already be granted.
+If you need the owner's blank template first, use `https://github.com/roberto-ram/studynest` as the URL and add: "This is the shared template. Help me create my own private repository before pushing any personalized files." The template is public; your personal private copy still needs GitHub sign-in.
 
 ### After cloning or opening the folder yourself
 
 ```text
 This folder is my main school workspace. Read AGENTS.md and START_HERE.md.
-Check access, then set up the study system for me. Keep saved context
-portable between ChatGPT Work, Codex, and Claude. Ask only for missing
+Check access, then set up the study system for me. Keep the saved files usable
+with ChatGPT Work, Codex, and Claude. Ask only for missing
 information, in no more than five bundled questions. Keep the shared
 templates blank and create my courses from them.
 ```
@@ -42,7 +42,7 @@ information. Create relevant units, exams, and assignments only as needed.
 Save my course context and the next step so a new chat can continue.
 ```
 
-### Fictional examples — adapt to your actual class
+### Examples to adapt to your class
 
 **Math**
 

@@ -10,7 +10,7 @@ Install/open the [official ChatGPT desktop app](https://learn.chatgpt.com/docs/a
 
 Open **Plugins**, find **GitHub**, and install/connect it. Follow the GitHub sign-in prompts and allow access to the repository you want to use. Your interface may call these connections Apps; use its GitHub connection option.
 
-The study-system repository is private. Your GitHub account needs access from the owner before ChatGPT can read it. [Official plugin setup](https://learn.chatgpt.com/docs/plugins).
+StudyNest is public, so you do not need an invitation to the template. Connect your own GitHub account to create and use a private copy. [Official plugin setup](https://learn.chatgpt.com/docs/plugins).
 
 ## 2. Create your school project
 
@@ -21,7 +21,7 @@ Create a project named something like **My School Workspace**. Start a **Work** 
 ```text
 Use my connected GitHub account to clone this repository into a new,
 separate folder for my school workspace:
-https://github.com/roberto-ram/efficient-ai-study-system
+https://github.com/roberto-ram/studynest
 
 Make the cloned folder the main/primary folder of this project.
 If you cannot change that app setting, give me the exact steps.

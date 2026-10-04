@@ -1,51 +1,54 @@
-# Version 1.0 Efficient Ai study system
+# StudyNest
 
-An adaptable school workspace for ChatGPT Work, Codex, Claude, and other AI tools that can read files.
+Keep your classes, study materials, and next steps in one place.
 
-Your courses, sources, study priorities, progress, and next steps live in this folder. A new chat can pick up from saved context instead of requiring you to explain everything again.
+StudyNest is a blank study workspace for ChatGPT Work, Codex, Claude, and other AI tools that can read files. It saves your course context in the folder so a new chat can pick up where you left off.
 
-**Version 1.0.0 — private template repository.** Create your own private copy before adding coursework.
+**Version 1.0.1. Public template.** Make your own private copy before adding personal coursework.
 
-## Start here
+## Get started
 
-**ChatGPT users:** try the [Super simplified install guide for ChatGPT users only](docs/CHATGPT_SUPER_SIMPLIFIED_INSTALL.md) to connect GitHub and let ChatGPT handle the clone and project setup.
+**ChatGPT users:** use the [Super simplified install guide for ChatGPT users only](docs/CHATGPT_SUPER_SIMPLIFIED_INSTALL.md).
 
-1. Follow the [beginner installation guide](docs/INSTALLATION.md).
-2. Copy the [setup prompt](docs/PROMPTS.md#1-install-and-open-the-system).
-3. Add your class materials and use the [course setup prompt](docs/PROMPTS.md#2-add-your-first-course).
-4. Open a fresh chat and try the [resume prompt](docs/PROMPTS.md#3-start-a-new-chat).
+For other setups:
 
-If your AI cannot write files, use the manual-save instructions in the installation guide. A chat saying it remembers something is not proof that the folder was updated.
+1. Follow the [installation guide](docs/INSTALLATION.md).
+2. Paste the [setup prompt](docs/PROMPTS.md#1-install-and-open-the-system).
+3. Add your class materials with the [course setup prompt](docs/PROMPTS.md#2-add-your-first-course).
+4. Try the [resume prompt](docs/PROMPTS.md#3-start-a-new-chat) in a fresh chat.
 
-## What the system does
+If your AI cannot edit the folder, the guide shows you how to save updated files yourself.
 
-- Keeps multiple classes, units, exams, and assignments separate.
-- Builds study priorities from your instructor's objectives and rubrics.
-- Explains why, quizzes you one question at a time, and targets weak reasoning.
-- Saves demonstrated progress, corrections, preferences, and a clear next step.
-- Adds clinical case-study support when a course is identified as healthcare.
-- Reads small context files first, then only relevant material.
-- Supports provider changes through plain Markdown rather than proprietary memory.
+## What you can do
 
-## Folder guide
+- Organize classes into units, exams, and assignments.
+- Study from your instructor's objectives and rubrics.
+- Practice one question at a time and get help with mistakes.
+- Save preferences, progress, and unfinished work for your next session.
+- Use progressive clinical cases for healthcare courses.
+- Switch AI tools while keeping your saved files.
 
-| Location | Purpose |
+The AI starts with a few short context files and reads the course material needed for the task. This avoids loading every class and document into each chat.
+
+## Find your files
+
+| Folder or file | What's there |
 | --- | --- |
-| [START_HERE.md](START_HERE.md) | AI entry point and task routing |
-| [context/](context/README.md) | Student profile, course registry, durable memory, latest handoff |
-| [courses/](courses/README.md) | Your courses; empty in this shared version |
-| [inbox/](inbox/README.md) | Temporary arrival point for new materials |
-| [templates/](templates/README.md) | Blank course, exam, unit, assignment, and progress templates |
-| [workflows/](workflows/README.md) | Onboarding, source intake, study, exams, assignments, progress |
-| [modules/](modules/README.md) | Optional subject-specific guidance |
-| [docs/](docs/README.md) | Installation, copy-paste prompts, maintenance, and design |
+| [START_HERE.md](START_HERE.md) | Where the AI starts |
+| [context/](context/README.md) | Your preferences, course list, saved decisions, and last task |
+| [courses/](courses/README.md) | Your courses, empty until setup |
+| [inbox/](inbox/README.md) | New materials waiting to be organized |
+| [templates/](templates/README.md) | Blank course, exam, unit, and assignment files |
+| [workflows/](workflows/README.md) | Instructions for tutoring and organizing work |
+| [modules/](modules/README.md) | Subject guidance, including healthcare |
+| [docs/](docs/README.md) | Setup guides, prompts, and maintenance |
 
-Read the [design](docs/DESIGN.md) to see how it works. See the [release checklist](docs/REVIEW.md) for validation and maintenance.
+The [design notes](docs/DESIGN.md) explain how saved context works. The [release checklist](docs/REVIEW.md) covers template maintenance.
 
-## What is included
+## Before you add coursework
 
-Blank instructions and templates, plus clearly labeled fictional setup prompts. No actual students, classes, textbooks, lectures, grades, patient records, or previous chat transcripts are included.
+This repository contains blank templates and fictional setup examples. It includes no real student records, course uploads, grades, or patient data.
 
-The system requires no paid API, database, plugin, or programming runtime. Your chosen AI service may have its own access requirements. Optional checks use Python 3.9 or later.
+You do not need an API key, database, or programming tools to use StudyNest. Your AI service may have its own account requirements. The optional file checker needs Python 3.9 or later.
 
-Personalization changes your own copy. Keep the shared template blank. Copying files does not automatically sync them to GitHub or Google Drive.
+Keep personal work in your own private copy. Saving a local file does not automatically back it up to GitHub or Google Drive.

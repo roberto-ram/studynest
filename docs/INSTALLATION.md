@@ -1,8 +1,8 @@
 # Beginner installation guide
 
-You do not need programming knowledge. This system is a folder of instructions and blank templates. GitHub holds a saved version online; your AI works with the copy you make available to it.
+You do not need programming knowledge. StudyNest is a folder of instructions and blank templates. GitHub holds a saved version online; your AI works with the copy you make available to it.
 
-**Blank template:** [efficient-ai-study-system](https://github.com/roberto-ram/efficient-ai-study-system). This repository is private; the owner must grant access before you can open or copy it.
+**Blank template:** [StudyNest](https://github.com/roberto-ram/studynest). The template is public. Anyone can view or copy it.
 
 **Another way for ChatGPT users:** follow the [Super simplified install guide for ChatGPT users only](CHATGPT_SUPER_SIMPLIFIED_INSTALL.md). Connect GitHub in ChatGPT, create a project, and give ChatGPT the repository link and install prompt.
 
@@ -20,7 +20,7 @@ A GitHub connector, uploaded ZIP, or conversation memory alone does not prove th
 ## 2. Make your personal copy on GitHub
 
 1. Create an account at [GitHub](https://github.com). Save your sign-in details in your usual password manager.
-2. Open the [template repository](https://github.com/roberto-ram/efficient-ai-study-system). While it is private, you need permission to read it. If you see a 404 page, sign in and ask the owner for access.
+2. Open the [StudyNest template](https://github.com/roberto-ram/studynest). You do not need an invitation. Sign in to GitHub to create your own copy.
 3. Click **Use this template -> Create a new repository**. Choose your own account as owner, name it something like `my-study-workspace`, and choose **Private**.
 4. Create the repository. You now have your own blank copy. Add your course content here, not to the shared original.
 

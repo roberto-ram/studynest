@@ -22,7 +22,7 @@ Organize as applicable:
 - Applications, complications/limitations, and evaluation.
 - Practice questions with answers withheld when interactive.
 
-Do not duplicate entire lectures. Link to existing source-backed notes and build short targeted summaries. Supporting textbook detail must be labeled.
+Do not duplicate entire lectures. Link to existing notes supported by sources and write short summaries for the current topic. Supporting textbook detail must be labeled.
 
 ## Study plan
 

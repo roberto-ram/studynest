@@ -1,57 +1,47 @@
-# Version 1.0 design
+# How StudyNest works
 
-The durable context is the student's folder. Provider memory can help, but it is not the only copy of course priorities, preferences, and progress.
+Your folder holds the course information that should carry from one chat to the next. The AI's built-in memory can help, but important facts also belong in these files.
 
-## Layers
+## What a new chat reads
 
-| Layer | Holds | Read when |
-| --- | --- | --- |
-| Shared rules | AGENTS.md; CLAUDE.md imports it | Session start |
-| Small personal context | Profile, dashboard, memory, latest pointer | Session start |
-| Course context | README, source index, progress | Selected course |
-| Task context | Exam map, assignment brief, unit or task handoff | Selected task |
-| Original evidence | Lecture pages, objectives, rubric, assigned readings | Needed for a claim |
-| Optional domain guidance | Healthcare or subject adaptation | Enabled/relevant only |
+| Files | Purpose |
+| --- | --- |
+| AGENTS.md and START_HERE.md | Shared rules and where to start |
+| Profile, dashboard, memory, and handoff | Your preferences, courses, decisions, and last task |
+| Selected course README, source index, and progress | Course expectations and what you've practiced |
+| Exam map, assignment brief, or task handoff | The work you want to do now |
+| Relevant source pages | Evidence for the explanation or answer |
 
-A new chat reads the short entry point, selects a course, resumes its task, and retrieves only the evidence needed. This reduces unnecessary context loading; actual tokens and cost depend on the provider, tools, and request.
+Subject guidance loads when needed. Healthcare courses get clinical cases and nursing reasoning tools. Other courses use practice suited to their subjects.
 
-## What carries forward from a strong study workspace
+The AI does not need to read every lecture and old assignment for each request. Short summaries and source indexes help it find the right material. Actual token use depends on the tool and task.
 
-- Instructor-first source priority and explicit source conflicts.
-- Course/exam folders with smaller lecture or unit subdivisions.
-- Objective-based priority maps.
-- Explain-why teaching, comparisons, whiteboard summaries, and adaptive quizzes.
-- Assignment workflows that preserve blank forms and original references.
-- Progressive healthcare cases where appropriate.
-- Clinical-judgment reasoning as a healthcare module.
-- Saved progress and next steps.
+## Course organization
 
-Course names, proprietary uploads, real grades, patient records, personal reflections, and historical chat content stay out of the blank template.
+Create course folders from the blank templates. Within each course, add units, exams, and assignments as needed. You can group courses by term or program.
 
-## What is generalized
+Keep original references unchanged. Notes and study guides link to the relevant source instead of making several copies of a textbook or lecture.
 
-A clinical teaching sequence becomes a general reasoning sequence with subject-specific adaptations. Clinical priorities and medication/lab formats load only for healthcare. Other disciplines can use their own case/problem formats.
+Official objectives and rubrics determine what matters. Extra background should be identified as supporting information.
 
-Templates are copied when needed. One student may have a single course; another may group several programs by term. Exact paths are registered in the dashboard rather than hard-coded in global instructions.
+## What gets remembered
 
-## Memory that stays useful
+Save preferences the student actually gives, facts supported by course sources, and progress shown through practice. Update a correction when the evidence changes.
 
-Preferences need student evidence. Course facts need sources. Progress needs observed responses. The system stores these separately and replaces superseded corrections.
+A handoff records what finished, what's missing, and what to do next. The AI saves these notes during work so the student does not have to remember a special command.
 
-Current summaries stay small; detailed older work is linked rather than reread. Handoffs are saved during meaningful checkpoints so reopening a chat does not depend solely on an end-of-session command.
+Reading a guide is different from demonstrating a skill. Practice results guide future questions; they do not predict a grade.
 
-"Always learning" means updating supported preferences, corrections, and demonstrated learning evidence. It does not mean training a model, guaranteeing perfect recall, or predicting grades.
+## Your copy
 
-## Ownership and portability
+[StudyNest](https://github.com/roberto-ram/studynest) is a public blank template. Each student creates a private copy for personal work and chooses a backup for original materials.
 
-The owner maintains a blank template. Students create their own private copies, personalize those, and choose backups for their originals. A private template needs access invitations before other people can copy it.
+Codex reads AGENTS.md. Claude Code imports it through CLAUDE.md. In projects that only accept uploads, students save and replace updated files themselves. The [installation guide](INSTALLATION.md) explains each setup.
 
-Plain Markdown is the common interface. Codex follows AGENTS.md; Claude Code imports it through CLAUDE.md; upload-only projects receive instructions and updated files manually. The [installation guide](INSTALLATION.md) links the current provider instructions.
+Changing AI tools does not change this folder structure. The new tool still needs access to the latest files.
 
-A cloud chat sees only files available to that environment. Ignored originals and unsaved local changes will not appear just because GitHub is connected.
+## What's included
 
-## Scope of Version 1.0
+Folders, templates, setup prompts, source indexes, progress notes, tutoring instructions, and subject guidance.
 
-Included: folders, templates, instructions, setup prompts, source indexing, progress, handoffs, subject activation, and maintenance.
-
-Deferred: LMS scraping, grade integrations, calendar sync, automatic reminders, cross-device sync services, and app-specific extensions. They can be added deliberately when a student actually needs them.
+LMS connections, calendar sync, automatic reminders, and grade integrations are possible later additions. They are not part of this version.

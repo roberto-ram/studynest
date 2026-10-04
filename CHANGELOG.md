@@ -1,16 +1,19 @@
 # Changelog
 
-## Updates after 1.0.0
+## 1.0.1: October 4, 2026
 
-- Added the Super simplified install guide for ChatGPT users only, with GitHub connection steps, a clone-and-primary-folder prompt, class setup, and a new-chat resume check.
+- Renamed the template StudyNest and made the repository public.
+- Updated setup links and removed the need for an invitation to the template.
+- Simplified the wording and removed unnecessary em dashes.
+- Added the Super simplified install guide for ChatGPT users only.
+- Kept personal course files in separate private copies.
 
-## 1.0.0 — October 4, 2026
+## 1.0.0: October 4, 2026
 
-- Provider-neutral study instructions and small startup context.
-- Blank multi-course, unit, exam, and assignment templates.
-- Instructor-first study, adaptive quizzes, and progress evidence.
-- Saved handoffs and source indexes for new chats.
-- Conditional healthcare guidance and clinical case templates.
-- Beginner setup paths, reusable prompts, and Git ownership guidance.
+- Created shared study instructions and short startup context.
+- Added blank course, unit, exam, and assignment templates.
+- Added instructor-based study, quizzes, source indexes, progress, and handoffs.
+- Added optional healthcare cases and clinical reasoning guidance.
+- Added installation guides and setup prompts.
 
-Release: **Version 1.0 Efficient Ai study system**, tagged `v1.0.0`. The template repository remains private.
+The initial release was private. Its v1.0.0 tag is retained.

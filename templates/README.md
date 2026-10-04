@@ -8,7 +8,7 @@ The AI copies only the template needed for the student's real task. Replace labe
 | [Unit](unit/README.md) | Selected course/units/{unit-name}/ |
 | [Exam](exam/README.md) | Selected course/exams/{exam-name}/ |
 | [Assignment](assignment/README.md) | Selected course/assignments/{assignment-name}/ |
-| [Clinical case](healthcare/Case Study.md) | Enabled course/case-studies/{case-name}.md |
+| [Clinical case](healthcare/Case%20Study.md) | Enabled course/case-studies/{case-name}.md |
 
 Course folders can hold any number of units, exams, or assignments. Do not create fictional courses in live `courses/` as examples. Keep examples in documentation.
 

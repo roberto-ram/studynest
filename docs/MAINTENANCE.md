@@ -39,7 +39,7 @@ Git history can retain previously committed files even after a later deletion or
 4. Open that folder or upload current context files.
 5. Use the resume prompt and confirm the recovered state.
 
-Keep provider-specific auto-memory optional; necessary facts belong in the portable files.
+An AI tool's built-in memory is optional. Save important facts in the workspace files.
 
 ## Maintenance and recovery
 
